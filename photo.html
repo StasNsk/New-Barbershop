@@ -5,6 +5,7 @@
     <title>Барбершоп «Бородинский»</title>
   </head>
   <body>
+
     <header class="page-header">
       <a href="" class="page-header__logo">
         <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="226" height="30" alt="Барбершоп «Бородинский»">
@@ -37,10 +38,113 @@
         </div>
       </nav>
     </header>
+
     <main class="page-main">
+      <section class="reviews">
+        <h2 class="reviews_title">наши работы</h2>
+        <div class="reviews__list">
+          <blockquote class="reviews__item">
+            <p class="reviews__author-picture reviews__author-picture--best-job-month">
+              <img class="reviews__author-image" src="#" alt="Фото пользователя">
+            </p>
+            <cite class="reviews__author-name">Лжепетр Мчиславский</cite>
+            <p class="reviews__text">Где я только не стригся, но так как делаете это вы - не умеет никто другой! Еще раз спасибо и до скорого!</p>
+            <ul class="reviews__service-list">
+              <li class="reviews__service-list__item reviews__haircut">стрижка</li>
+              <li class="reviews__service-list__item reviews__shave">бритье</li>
+              <li class="reviews__service-list__item reviews__moustache">усы</li>
+            </ul>
+          </blockquote>
+          <blockquote class="reviews__item">
+            <p class="reviews__author-picture">
+              <img class="reviews__author-image" src="#" alt="Фото пользователя">
+            </p>
+            <cite class="reviews__author-name">Саша Мальцев</cite>
+            <p class="reviews__text">Попросил омолодить и омолодили! Кто теперь скажет, что мне 45?</p>
+            <ul class="reviews__service-list">
+              <li class="reviews__service-list__item reviews__haircut">стрижка</li>
+            </ul>
+          </blockquote>
+          <blockquote class="reviews__item">
+            <p class="reviews__author-picture">
+              <img class="reviews__author-image" src="#" alt="Фото пользователя">
+            </p>
+            <cite class="reviews__author-name">Владимир Иваныч</cite>
+            <p class="reviews__text">К зимнему сезону - готов!</p>
+            <ul class="reviews__service-list">
+              <li class="reviews__service-list__item reviews__shave">борода</li>
+              <li class="reviews__service-list__item reviews__moustache">усы</li>
+            </ul>
+          </blockquote>
+          <blockquote class="reviews__item">
+            <p class="reviews__author-picture">
+              <img class="reviews__author-image" src="#" alt="Фото пользователя">
+            </p>
+            <cite class="reviews__author-name">Винстон Синий</cite>
+            <p class="reviews__text">Как только зарастаю и волосы начинают мешать видеть - бегом в Бородинский</p>
+            <ul class="reviews__service-list">
+              <li class="reviews__service-list__item reviews__haircut">стрижка</li>
+            </ul>
+          </blockquote>
+        </div>
+      </section>
+      <table class="price-list">
+        <h3 class="price-list__title">прейскурант</h3>
+        <tr>
+          <td class="price-list__field">Классическая стрижка <span class="extra-service">(с мытьем головы)</span></td>
+          <td class="price-list__value">1 500 руб.</td>
+        </tr>
+        <tr>
+          <td class="price-list__field">Современный вариант <span class="extra-service">(с мытьем головы)</span></td>
+          <td class="price-list__value">1 500 руб.</td>
+        </tr>
+        <tr>
+          <td class="price-list__field">Индивидуальный подход <span class="extra-service">(с мытьем головы)</span></td>
+          <td class="price-list__value">2 000 руб.</td>
+        </tr>
+        <tr>
+          <td class="price-list__field">Бритье головы <span class="extra-service">(без мытья)</span></td>
+          <td class="price-list__value">500 руб.</td>
+        </tr>
+        <tr>
+          <td class="price-list__field">Бритье головы <span class="extra-service">(с мытьем головы)</span></td>
+          <td class="price-list__value">1 000 руб.</td></tr>
+      </table>
+      <div class="sale-time">
+        <p class="sale-time__text">С 10:00 до 14:00 скидка 20%</p>
+      </div>
     </main>
+
     <footer class="page-footer">
-      
+      <div class="page-footer__wrapper">
+        <div class="page-footer__contacts contacts">
+          <b class="contacts__title">Барбершоп «Бородинский»</b>
+          <p class="contacts__text">г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
+            <a class="contacts__phone" href="tel:+78125556666">
+              <span class="contacts__phone-mobile">Тел.:</span> +7 (812) 555-66-66
+            </a>
+          </p>
+        </div>
+        <div class="page-footer__social social">
+          <b class="social__title">Давайте дружить!</b>
+          <ul class="social__list">
+            <li class="social__item">
+              <a href="#" class="social__link social__link--vkontakte">Мы в Вконтакте</a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link social__link--facebook">Мы в Фейсбуке</a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link social__link--instagram">Мы в Инстаграме</a>
+            </li>
+        </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Разработано:</b>
+          <a href="#" class="button copyright__link">HTML Academy</a>
+        </div>
+      </div>
     </footer>
+
   </body>
 </html>
